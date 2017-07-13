@@ -7,26 +7,26 @@ This app is a short quiz app which tests the user's knowledge about basic Androi
     <table>
         <tr>
             <td style="padding:5px">
-                <img src="http://i.imgur.com/lJ9fTEK.png">
+                <img src="http://i.imgur.com/lJ9fTEK.png" alt="screenshot 1">
               </td>
             <td style="padding:5px">
-                <img src="http://i.imgur.com/3bRU19f.png">
+                <img src="http://i.imgur.com/3bRU19f.png"alt="screenshot 2">
              </td>
              <td style="padding:5px">
-                <img src="http://i.imgur.com/xeOOZPR.png">
+                <img src="http://i.imgur.com/xeOOZPR.png"alt="screenshot 3">
              </td>
         </tr>
     </table>
      <table>
         <tr>
             <td style="padding:5px">
-                <img src="http://i.imgur.com/tuDp6F9.png">
+                <img src="http://i.imgur.com/tuDp6F9.png"alt="screenshot 4">
               </td>
             <td style="padding:5px">
-                <img src="http://i.imgur.com/nb1gnYD.png">
+                <img src="http://i.imgur.com/nb1gnYD.png"alt="screenshot 1"alt="screenshot 5">
              </td>
              <td style="padding:5px">
-                <img src="http://i.imgur.com/H6PlmsL.png">
+                <img src="http://i.imgur.com/H6PlmsL.png"alt="screenshot 6">
              </td>
         </tr>
     </table>
