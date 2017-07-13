@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrouncol"
+    android:orientation="vertical"
+    tools:context=".QuestionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/linear"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs1" />
+
+                <RadioGroup
+                    android:id="@+id/rg1"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Vertical view" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Horizontal view" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Linear layout"
+                        android:id="@+id/r1c"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Relative layout" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs2" />
+
+                <RadioGroup
+                    android:id="@+id/rg2"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Upper case" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Camel case"
+                        android:id="@+id/r2b"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Lower case" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Android case" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs3" />
+
+                <RadioGroup
+                    android:id="@+id/rg3"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Views"
+                        android:id="@+id/r3a"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Textview" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Rectangle" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Content" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs4" />
+
+                <RadioGroup
+                    android:id="@+id/rg4"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Applications" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Content" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Views"
+                        android:id="@+id/r4c"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Attributes" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs5" />
+
+                <CheckBox
+                    style="@style/chktop"
+                    android:text="Scroll view"
+                    android:id="@+id/c5a"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Text view"
+                    android:id="@+id/c5b"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Image view"
+                    android:id="@+id/c5c"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Relative layout"
+                    android:id="@+id/c5d"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs6" />
+
+                <CheckBox
+                    style="@style/chktop"
+                    android:text="Contains states"
+                    android:id="@+id/c6a"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="No state"
+                    android:id="@+id/c6b"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Abstract methods"
+                    android:id="@+id/c6c"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Fully implemented methods"
+                    android:id="@+id/c6d"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs7" />
+
+                <CheckBox
+                    style="@style/chktop"
+                    android:text="Contains states"
+                    android:id="@+id/c7a"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="No state"
+                    android:id="@+id/c7b"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Abstract methods"
+                    android:id="@+id/c7c"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Fully implemented methods"
+                    android:id="@+id/c7d"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs8" />
+
+                <RadioGroup
+                    android:id="@+id/rg5"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Subclass,Superclass"
+                        android:id="@+id/r8a"
+                        />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Superclass,Subclass" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Subclass,Subclass" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="None of the above" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs9" />
+
+                <CheckBox
+                    style="@style/chktop"
+                    android:text="Implicit intent"
+                    android:id="@+id/c9a"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Inclusive intent"
+                    android:id="@+id/c9b"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Exclusive intent"
+                    android:id="@+id/c9c"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Explicit intent"
+                    android:id="@+id/c9d"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs10" />
+
+                <RadioGroup
+                    android:id="@+id/rg6"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Implicit intent" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Inclusive intent" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Exclusive intent" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Explicit intent"
+                        android:id="@+id/r10d"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs11" />
+
+                <RadioGroup
+                    android:id="@+id/rg7"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Implicit intent"
+                        android:id="@+id/r11a"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Inclusive intent" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Exclusive intent" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Explicit intent" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs12" />
+
+                <RadioGroup
+                    android:id="@+id/rg8"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Yes"
+                        android:id="@+id/r12a"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="No" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Both" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="None of the answer" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs13" />
+
+                <RadioGroup
+                    android:id="@+id/rg9"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Interface-Concrete class-Abstract class" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Abstract class-Interface-Concrete class" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Interface-Abstract class-Concrete class"
+                        android:id="@+id/r13c"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Concrete class-Abstract class-Interface" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs14" />
+
+                <RadioGroup
+                    android:id="@+id/rg10"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="View recycling"
+                        android:id="@+id/r14a"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="View destroying" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="View hiding" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="View layering" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs15" />
+
+                <RadioGroup
+                    android:id="@+id/rg11"
+                    style="@style/rg">
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Default" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Public" />
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Private"
+                        android:id="@+id/r15c"/>
+
+                    <RadioButton
+                        style="@style/rb"
+                        android:text="Protected" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text"
+                    android:text="@string/qs16" />
+
+                <CheckBox
+                    style="@style/chktop"
+                    android:text="Recyclable view"
+                    android:id="@+id/c16a"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Linear layout"
+                    android:id="@+id/c16b"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Relative layout"
+                    android:id="@+id/c16c"/>
+
+                <CheckBox
+                    style="@style/chk"
+                    android:text="Array adapter"
+                    android:id="@+id/c16d"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textInput"
+                    android:text="@string/qs17" />
+
+                <EditText style="@style/edit"
+                    android:id="@+id/et1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textInput"
+                    android:text="@string/qs18" />
+
+                <EditText style="@style/edit"
+                    android:id="@+id/et2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textInput"
+                    android:text="@string/qs19" />
+
+                <EditText style="@style/edit"
+                    android:id="@+id/et3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/linear"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textInput"
+                    android:text="@string/qs20" />
+
+                <EditText style="@style/edit"
+                    android:id="@+id/et4"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                >
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:textAllCaps="true"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="40dp"
+                    android:paddingLeft="40dp"
+                    style="@style/button"
+                    android:background="@drawable/button"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

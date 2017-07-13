@@ -1,0 +1,26 @@
+<resources>
+ <string name="start">To start Quiz, please input your name below</string>
+    <string name="app_name">Todroid Quiz</string>
+    <string name="your_name">Your name here</string>
+    <string name="quiz">start quiz</string>
+    <string name="qs1">A viewgroup used to arrange other views horizontally or vertically is called?</string>
+    <string name="qs2">XML elements in android are written in ........</string>
+    <string name="qs3">The various rectangular contents that are displayed on the screen are referred to as?</string>
+    <string name="qs4">In android, a layout is a collection of .......</string>
+    <string name="qs5">Which of the following is/are viewgroup?</string>
+    <string name="qs6">In java, which of the following is/are true about an interface?</string>
+    <string name="qs7">In java, which of the following is/are true about a concrete class?</string>
+    <string name="qs8">In java, ........ extends ........</string>
+    <string name="qs9">In android, the two common types of intent are?</string>
+    <string name="qs10">In other to open another activity within the same app, which intent should be used?</string>
+    <string name="qs11">To open another activity inside of another app, ...... intent is best appropriate?</string>
+    <string name="qs12">Both types of intent in android share some similarities?</string>
+    <string name="qs13">Which of the following represents the correct order of increasing functionality?</string>
+    <string name="qs14">Which of the following processes is adopted for efficient memory management?</string>
+    <string name="qs15">Which of the following java access modifiers is the most restrictive?</string>
+    <string name="qs16">Which of the following is/are necessary for View Recycling?</string>
+    <string name="qs17">URI stands for? </string>
+    <string name="qs18">Write the full meaning of SDK</string>
+    <string name="qs19">What does DPI stands for?</string>
+    <string name="qs20"> The full meaning of ADB is?</string>
+</resources>

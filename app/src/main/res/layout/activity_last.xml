@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.project2.android.todroidquiz.LastActivity"
+    android:background="@drawable/backgrouncol">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/final_text"
+        tools:text="Woooow!!! Adeoye Oluwatobi"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="You scored"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        tools:text="100%"
+        android:textSize="50sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="in the last quiz"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finish"
+        android:textAlignment="center"
+        android:text="Play again"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"
+        style="@style/button"/>
+
+
+</LinearLayout>
