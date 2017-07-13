@@ -1,7 +1,7 @@
 Todroid Quiz App
 ============
 
-This app is a short quiz app which tests the user's knowledge about basic Android development topics. 
+This app is a short quiz app which tests the user's knowledge on basic Android development topics. 
 
 <div id="image-table">
     <table>
